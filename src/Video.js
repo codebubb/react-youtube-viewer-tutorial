@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Video = props => (
-    <div>
         <div className="videos__item">
             <div className="video__image">
                 <a target="_blank" href={props.video.link}>
@@ -12,5 +11,4 @@ export const Video = props => (
                 <p>{props.video.title}</p>
             </div>
         </div>
-    </div>
 );
